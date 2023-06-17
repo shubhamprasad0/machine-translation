@@ -1,6 +1,8 @@
 import streamlit as st
 from transformers import pipeline
 
+st.set_page_config(page_title="Language Translation")
+
 @st.cache_resource
 def load_model():
     translator = pipeline("translation_en_to_fr", "tonystark0/my_en_to_fr_translation_model")
