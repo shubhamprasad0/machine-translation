@@ -1,6 +1,6 @@
 ---
 title: Machine Translation
-emoji: 📉
+emoji: 🐼
 colorFrom: yellow
 colorTo: pink
 sdk: streamlit
